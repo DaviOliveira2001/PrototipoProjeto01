@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-image: url('../img/imagem\ 1.jpg');
+    background-size: cover;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    padding: 10px;
+    box-shadow: 0px 5px 20px #000;
+    align-items: center;
+    background-image: url(../img/background\ 06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(29, 28, 28);
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu li a{
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+    padding: 10px 20px 10px 20px;
+}
+.menu li a:hover{
+    color: white;
+    display: block;
+    text-decoration: none;
+    background-color: red;
+}
+.introdução{
+    text-align: center;
+    font-size: large;
+}
+.historia{
+    text-align: center;
+    font-size: large;
+}
